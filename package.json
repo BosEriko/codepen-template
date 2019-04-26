@@ -1,11 +1,11 @@
 {
-  "name": "@boseriko/create-project",
+  "name": "@boseriko/codepen-template",
   "version": "1.0.0",
   "description": "A CLI to bootstrap my new projects",
   "main": "src/index.js",
   "bin": {
-    "@boseriko/create-project": "bin/create-project",
-    "create-project": "bin/create-project"
+    "@boseriko/codepen-template": "bin/codepen-template",
+    "codepen-template": "bin/codepen-template"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
   },
   "keywords": [
     "cli",
-    "create-project"
+    "codepen-template"
   ],
   "author": "Bos Eriko",
   "license": "ISC",
