@@ -1,8 +1,15 @@
 {
-  "name": "codepen-template",
+  "name": "@boseriko/create-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A CLI to bootstrap my new projects",
+  "main": "src/index.js",
+  "bin": {
+    "@your_npm_username/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +17,17 @@
     "type": "git",
     "url": "git+https://github.com/BosEriko/codepen-template.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "Bos Eriko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BosEriko/codepen-template/issues"
   },
-  "homepage": "https://github.com/BosEriko/codepen-template#readme"
+  "homepage": "https://github.com/BosEriko/codepen-template#readme",
+  "dependencies": {
+    "esm": "^3.2.22"
+  }
 }
