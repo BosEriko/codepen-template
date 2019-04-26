@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/BosEriko/codepen-template#readme",
   "dependencies": {
-    "esm": "^3.2.22"
+    "arg": "^4.1.0",
+    "esm": "^3.2.22",
+    "inquirer": "^6.3.1"
   }
 }
