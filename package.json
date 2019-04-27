@@ -1,8 +1,15 @@
 {
-  "name": "codepen-template",
+  "name": "@boseriko/create-codepen-template",
   "version": "1.0.0",
-  "description": "Instruction: https://www.twilio.com/blog/how-to-build-a-cli-with-node-js",
-  "main": "index.js",
+  "description": "A CLI to bootstrap my new codepen projects",
+  "main": "src/index.js",
+  "bin": {
+    "@boseriko/create-codepen-template": "bin/create-codepen-template",
+    "create-codepen-template": "bin/create-codepen-template"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +17,17 @@
     "type": "git",
     "url": "git+https://github.com/BosEriko/codepen-template.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "create-codepen-template"
+  ],
+  "author": "Bos Eriko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BosEriko/codepen-template/issues"
   },
-  "homepage": "https://github.com/BosEriko/codepen-template#readme"
+  "homepage": "https://github.com/BosEriko/codepen-template#readme",
+  "dependencies": {
+    "esm": "^3.2.22"
+  }
 }
